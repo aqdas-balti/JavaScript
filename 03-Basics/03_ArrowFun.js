@@ -23,7 +23,7 @@ const user={
 // }
 // chai();//undefined
 
-//Arroe Function can we do it in it?
+//Arrow Function can we do it in it?
 // const chai =  () =>{
 //     let userName="BOB"
 //     console.log(this.userName);

@@ -43,5 +43,5 @@ const user={
 // const addTwo=(num1,num2)=> (num1+num2);
 //     console.log(addTwo(2,4));//6
 
-// const addTwo=(num1,num2)=> ({userName:"Ali"});//{ userName: 'Ali'}
-//     console.log(addTwo(2,4));//6
+const addTwo=(num1,num2)=> ({userName:"Ali"});//{ userName: 'Ali'}
+    console.log(addTwo(2,4));//6

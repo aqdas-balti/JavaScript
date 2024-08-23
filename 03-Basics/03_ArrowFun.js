@@ -45,3 +45,7 @@ const user={
 
 const addTwo=(num1,num2)=> ({userName:"Ali"});//{ userName: 'Ali'}
     console.log(addTwo(2,4));//6
+
+const myArray = [1,2,3,4,5,6];  
+myArray.forEach (function (){}) // Correct Sentence  simple 
+myArray.forEach (()=>{});//Arrow function syntex

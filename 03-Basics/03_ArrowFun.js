@@ -9,13 +9,13 @@ const user={
 }
 // console.log(this);//{} because of node environment
 
-// user.wellcomeMessage();//console.log(this);
+// user.welcomeMessage();//console.log(this);
 // //(This) is the context of a function
 // user.userName = "Ali";
-// user.wellcomeMessage()//console.log(this);
+// user.welcomeMessage()//console.log(this);
 
-//We can use our context (this) is only in the object not in the function thts why it will display [undefined]
-//const chai = function (){} another method to delclare the function
+//We can use our context (this) is only in the object not in the function that's why it will display [undefined]
+//const chai = function (){} another method to declare the function
 // function chai(){
 //     let userName="BOB"
 //     console.log(this.userName);
@@ -48,4 +48,4 @@ const addTwo=(num1,num2)=> ({userName:"Ali"});//{ userName: 'Ali'}
 
 const myArray = [1,2,3,4,5,6];  
 // myArray.forEach (function (){}) // Correct Sentence  simple 
-// myArray.forEach (()=>{});//Arrow function syntex
+// myArray.forEach (()=>{});//Arrow function syntax

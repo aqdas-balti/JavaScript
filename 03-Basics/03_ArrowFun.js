@@ -30,6 +30,7 @@ const user={
 // }
 // chai();//undefined ans will be same
 
+//Explicit return of arrow function
 // const addTwo=(num1,num2)=>{
 //     return num1+num2;
 // }
@@ -37,5 +38,10 @@ const user={
 
 //Implicit return of the arrow function
 
-const addTwo=(num1,num2)=> num1+num2;
+// const addTwo=(num1,num2)=> num1+num2;
+//when we use curly braces the writing the return keyword is mandatory but when we use the parenthesis the it will not mandatory
+// const addTwo=(num1,num2)=> (num1+num2);
+//     console.log(addTwo(2,4));//6
+
+const addTwo=(num1,num2)=> ({userName:"Ali"});//{ userName: 'Ali'}
     console.log(addTwo(2,4));//6

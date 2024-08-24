@@ -18,14 +18,14 @@
 
 //Arrow function with iife
 //Without named iife function
-(()=> {
-    console.log("BD Connected Two");
+// (()=> {
+//     console.log("BD Connected Two");
     
-})();//BD Connected Two
+// })();//BD Connected Two
 
-//Parametric arrow function with iife
-//Without named iife parametric function 
-((name)=> {
-    console.log("BD Connected",`${name}`);
+// //Parametric arrow function with iife
+// //Without named iife parametric function 
+// ((name)=> {
+//     console.log("BD Connected",`${name}`);
     
-})('Aqdas-Ali');//BD Connected Two
+// })('Aqdas-Ali');//BD Connected Two

@@ -44,14 +44,14 @@ const balance =1000;
 // }
 
 //Daily lifr example cases of if statements
-// const userLoggedin = true;
-// const debitCard = true
-// if (userLoggedin&&debitCard) {//In AND (&&) case both the condition are mandatory to acquire true to access the code
-//     console.log("User can allow to shopping");   
-// }
-// let userLoggedinfromGoogle=false;
-// let userLoggedinfromEmail=true;
-// if (userLoggedinfromGoogle||userLoggedinfromEmail) {//This is OR (||) case if the one condition is true then it will generate true result
-//     console.log("Yes User Logged In !");
+const userLoggedin = true;
+const debitCard = true
+if (userLoggedin&&debitCard) {//In AND (&&) case both the condition are mandatory to acquire true to access the code
+    console.log("User can allow to shopping");   
+}
+let userLoggedinfromGoogle=false;
+let userLoggedinfromEmail=true;
+if (userLoggedinfromGoogle||userLoggedinfromEmail) {//This is OR (||) case if the one condition is true then it will generate true result
+    console.log("Yes User Logged In !");
     
-// }
+}

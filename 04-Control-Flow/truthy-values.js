@@ -30,3 +30,22 @@ let EmptyObj={};
 if (Object.keys(EmptyObj).length==0) {
     console.log("Object is Empty");   
 }
+//Equality checking
+//false = 0 true
+//false = '' true
+//0='' true
+
+//Nullish Coalescing Operator (??) are: Null and undefined
+
+let Val;
+// Val = 10 ?? 15;//10
+// Val = null ?? 20 //20
+// Val = undefined ?? 15;//15
+// Val = undefined ?? 30 ?? 40 ;//30
+Val = null ?? 50 ?? 60 //50
+console.log(Val);
+
+// Ternary Operator 
+//Condition ? True : False
+let Price = 100;
+Price <=80 ? console.log("Yes less than 80") : console.log("more then 80")

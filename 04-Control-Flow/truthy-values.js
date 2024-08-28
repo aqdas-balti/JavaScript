@@ -24,3 +24,9 @@ if (Email2) {
 if (Email2.length==0) {
     console.log("Array is Empty");
 }
+
+//Object Checking
+let EmptyObj={};
+if (Object.keys(EmptyObj).length==0) {
+    console.log("Object is Empty");   
+}

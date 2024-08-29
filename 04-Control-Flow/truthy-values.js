@@ -47,5 +47,5 @@ console.log(Val);
 
 // Ternary Operator 
 //Condition ? True : False
-let Price = 100;
-Price <=80 ? console.log("Yes less than 80") : console.log("more then 80")
+// let Price = 100;
+// Price <=80 ? console.log("Yes less than 80") : console.log("more then 80")

@@ -2,7 +2,7 @@
 for (let index = 0; index <4; index++) {
     // const element = index;
     // console.log(element);
-    console.log(index);
+    // console.log(index);
 
     //ctrl+D to select the same variables for changing variables name
 }

@@ -9,14 +9,14 @@ for (const value of arr) {
 
 //Array With Strings
 let arr2 = ["Aqdas","Anwar","Abdullah","Furqan","Irfan"];
-// for (const val2 of arr2) {
-//     console.log(val2);
-// }
+for (const val2 of arr2) {
+    console.log(val2);
+}
 
-// let greetings = "Hello World!"
-// for (const greet of greetings) {
-//     if (greet==" ") {//This will neglect the space of the array
-//         continue
-//     }
-//     console.log(`Each Char is ${greet}`);
-// }
+let greetings = "Hello World!"
+for (const greet of greetings) {
+    if (greet==" ") {//This will neglect the space of the array
+        continue
+    }
+    console.log(`Each Char is ${greet}`);
+}

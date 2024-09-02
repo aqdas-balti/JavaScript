@@ -38,11 +38,11 @@ for (const key of map) {
 ['IN', 'India']
 ['IRQ', 'Iraq'] */
 
-// for (const [key,value] of map) {
-//     console.log(key,":-",value);//It will display the result with separate
-// /*Ans:
-// PK :- Pakistan
-// IR :- Iran
-// IN :- India
-// IRQ :- Iraq */
-// }
+for (const [key,value] of map) {
+    console.log(key,":-",value);//It will display the result with separate
+/*Ans:
+PK :- Pakistan
+IR :- Iran
+IN :- India
+IRQ :- Iraq */
+}

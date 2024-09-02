@@ -30,7 +30,7 @@ map.set('IRQ','Iraq');
 // console.log(map);
 
 for (const key of map) {
-    console.log(key);//It will display the result with in array to avoid we use below
+    // console.log(key);//It will display the result with in array to avoid we use below
 }
 /*Ans:
 ['PK', 'Pakistan']
@@ -39,10 +39,22 @@ for (const key of map) {
 ['IRQ', 'Iraq'] */
 
 for (const [key,value] of map) {
-    console.log(key,":-",value);//It will display the result with separate
+    // console.log(key,":-",value);//It will display the result with separate
 /*Ans:
 PK :- Pakistan
 IR :- Iran
 IN :- India
 IRQ :- Iraq */
 }
+//Check the usage of forof loop in the object
+const myObject={
+    JS : "Javascript",
+    CPP: "C++",
+    PY: "Python",
+    RB: "Ruby"
+}
+for (const key of myObject) {
+    // console.log(key);
+    
+}
+//myObject is not iterable at object / <anonymous>

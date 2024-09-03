@@ -10,13 +10,13 @@ coding.forEach ( (values) => {
     console.log(values);//JS PY CPP RB will be print 
 })
 //Use function as a reference like
-console.log("Print the values with reference function");
-function printMe(ref){
-    console.log(ref);
-}
-coding.forEach( printMe );//JS PY CPP RB will be print
+// console.log("Print the values with reference function");
+// function printMe(ref){
+//     console.log(ref);
+// }
+// coding.forEach( printMe );//JS PY CPP RB will be print
 
-//we can also see the value, index and also full array values
-coding.forEach( (val,index,arr)=>{
-    console.log(val,index,arr);
-})
+// //we can also see the value, index and also full array values
+// coding.forEach( (val,index,arr)=>{
+//     console.log(val,index,arr);
+// })

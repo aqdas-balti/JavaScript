@@ -37,8 +37,8 @@ const myCoding = [
         languageFile_Name:"RB"
     }
 ]
-myCoding.forEach( (val)=>{
-    // console.log(val.languageFile_Name); //JS PY and RB will be print
-    // console.log(val.language_Name);//Now language names will be print
-    console.log(`${val.language_Name} is language name and ${val.languageFile_Name} is the language file name.`);
-});
+// myCoding.forEach( (val)=>{
+//     // console.log(val.languageFile_Name); //JS PY and RB will be print
+//     // console.log(val.language_Name);//Now language names will be print
+//     console.log(`${val.language_Name} is language name and ${val.languageFile_Name} is the language file name.`);
+// });

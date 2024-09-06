@@ -5,10 +5,10 @@ const Books =[
     {title : "Biology", genre : "History", publish : "2005", edition :"2015"},
     {title : "Computer", genre : "Programming", publish : "2010", edition :"2020"},
 ]
-// let myBooks = Books.filter((bk)=>bk.genre==="History");
-// console.log(myBooks);
+let myBooks = Books.filter((bk)=>bk.genre==="History");
+console.log(myBooks);
 
-// myBooks = Books.filter((bk)=>{return bk.edition==="2015";})
-// console.log(myBooks);
+myBooks = Books.filter((bk)=>{return bk.edition==="2015";})
+console.log(myBooks);
 
-// myBooks = Books.filter((bk)=>bk.genre==="History"&&bk.edition>=2000);
+myBooks = Books.filter((bk)=>bk.genre==="History"&&bk.edition>=2000);

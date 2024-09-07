@@ -28,8 +28,8 @@ const shoppingCards =[
     }
 ]
 // const userPurchased = shoppingCards.reduce((arr,items)=>arr+items.price,0);
-//  const userPurchased = shoppingCards.reduce(function (acc,items){
-//     return acc+items.price;
-// },0);
+ const userPurchased = shoppingCards.reduce(function (acc,items){
+    return acc+items.price;
+},0);
 
-// console.log(userPurchased);//9000
+console.log(userPurchased);//9000

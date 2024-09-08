@@ -53,8 +53,8 @@ const myObject={
     PY: "Python",
     RB: "Ruby"
 }
-for (const key of myObject) {
-    // console.log(key);
+// for (const key of myObject) {
+//     // console.log(key);
     
-}
+// }
 //myObject is not iterable at object / <anonymous>

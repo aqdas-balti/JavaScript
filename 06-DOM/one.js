@@ -39,18 +39,18 @@ title.innerText This will only show thw text
 title.textContent This will also show the hide things
 'Dom Learning on chai aor code This Is Span'
 
-// document.getElementsByClassName('Heading')
-// HTMLCollection [h1#title.Heading, title: h1#title.Heading]
-// document.querySelector('h1')
-// <h1 id=​"title" class=​"Heading">​…​</h1>​
-// document.querySelector('h2')
-// <h2>​1: Lorem ipsum dolor sit amet.​</h2>​
+document.getElementsByClassName('Heading')
+HTMLCollection [h1#title.Heading, title: h1#title.Heading]
+document.querySelector('h1')
+<h1 id=​"title" class=​"Heading">​…​</h1>​
+document.querySelector('h2')
+<h2>​1: Lorem ipsum dolor sit amet.​</h2>​
 
-// Document.querySelector('#title')
-// <h1 id=​"title" class=​"Heading">​…​</h1>​
-// document.querySelector('.Heading')
-// <h1 id=​"title" class=​"Heading">​…​</h1>​
+Document.querySelector('#title')
+<h1 id=​"title" class=​"Heading">​…​</h1>​
+document.querySelector('.Heading')
+<h1 id=​"title" class=​"Heading">​…​</h1>​
 
-// document.querySelector('input[type=password]')
-// <input type=​"password" name id>​
+document.querySelector('input[type=password]')
+<input type=​"password" name id>​
 */

@@ -1,5 +1,5 @@
-"use strict";
-// alert = 3 + 3; This generates error because we use node js not browser
+"use strict";//treat all js code as new version
+// alert = (3 + 3); This generates error because we use node js not browser
 //Your code should be readable
 let age = 3 + 3;
 console.log(age);
@@ -16,4 +16,4 @@ console.log("Aqdas Ali");
 console.log(typeof "Aqdas Ali"); //string
 console.log(typeof age); //number
 console.log(typeof null); //object
-console.log(typeof undefined); //object
+console.log(typeof undefined); //undefined

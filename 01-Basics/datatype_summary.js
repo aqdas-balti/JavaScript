@@ -45,7 +45,7 @@ const heros = new Array(
   "Abu Mehdi al Muhandis"
 );
 console.log(heros);
-console.log(typeof heros); //Array
+// console.log(typeof heros); //Array
 //Object:
 let obj = {
   Name: "Aqdas Ali",

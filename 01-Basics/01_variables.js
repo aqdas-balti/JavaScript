@@ -6,5 +6,5 @@ account_City = "Islamabad";
 //account_id = 121;
 /*Prefer not to use var
 because of issue in block scope and functional scope */
-console.table([account_id, account_Emailid, account_Password, account_City]);
+// console.table([account_id, account_Emailid, account_Password, account_City]);
 // console.log(account_id);

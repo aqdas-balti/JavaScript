@@ -1,4 +1,4 @@
-// //In this we can convert the one data type to another
+n // //In this we can convert the one data type to another
 let score = 60;
 console.log("Actual Ans:", score); //60
 console.log("Actual typeof 60:", typeof score); //number

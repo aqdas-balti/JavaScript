@@ -1,5 +1,5 @@
 //Singleton
-//object.create
+//object.create //Through constructor
 //Object Literals
 
 const object = {
@@ -12,7 +12,7 @@ const object = {
 };
 console.log(object.name); //Aqdas (But this is not a good way to accessing the data ahead problems will create)
 console.log(object["name"]); //Aqdas (This is a good way to access the data)
-// console.log(object[isLoggedIn]); //This will create error because of syntext error
+// console.log(object[isLoggedIn]); //This will create error because of syntax error
 console.log(object["isLoggedIn"]);
 
 //If i create a symbol and put it into an object and access it from there
@@ -21,7 +21,7 @@ const Object2 = {
   name: "Aqdas",
   Age: 22,
   //mySymbol: "Check Symbol",
-  [mySymbol]: "Check My Symbol", //This is a right syntext
+  [mySymbol]: "Check My Symbol", //This is a right syntax
   Email: "aqdasali584@gmail.com",
 };
 console.log(Object2.mySymbol); //This will displayed you output but it will also changed your symbol data type to string
@@ -48,7 +48,7 @@ console.log(object);
 object.greeting = function () {
   console.log("Hello Object User");
 };
-console.log(object.greeting); //[Function (anonymous)]
+// console.log(object.greeting); //[Function (anonymous)]
 console.log(object.greeting()); //Hello Object User
 //Extra
 // object.greeting = function () {
@@ -67,5 +67,5 @@ object.greetingTwo = function () {
     `Hello Object User ${this.name}, and this is ypur email adress ${this.Email}`
   );
 };
-console.log(object.greetingTwo); //[Function (anonymous)]
+// console.log(object.greetingTwo); //[Function (anonymous)]
 console.log(object.greetingTwo()); //Hello Object User Aqdas, and this is ypur email adress aqdasali584@gmail.com

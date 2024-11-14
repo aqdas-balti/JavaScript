@@ -34,7 +34,7 @@ navbar((company = "Ali"));
 //Api's with Arrays in objects syntax like
 [{}, {}, {}];
 
-{
+/*{
   "results": [
     {
       "gender": "female",
@@ -99,4 +99,4 @@ navbar((company = "Ali"));
     "page": 1,
     "version": "1.4"
   }
-}
+}*/

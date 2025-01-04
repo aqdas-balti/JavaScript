@@ -8,6 +8,8 @@
         "Aqdas",
         "aqdasali",
         "aqdasaliadd",
+        "booleanval",
+        "concatinate",
         "currval",
         "forof",
         "Furqan",
@@ -17,6 +19,12 @@
         "Maisum",
         "newchaining",
         "Nums",
-        "ypur"
+        "valbool",
+        "valin",
+        "valnull",
+        "valundefined",
+        "valus",
+        "ypur",
+        "Zafran"
     ]
 }

@@ -7,6 +7,7 @@
 </head>
 <body style="background-color: black; color: #fff;">
     <div class="parent">
+        <!-- Comment -->
         <div class="day">Monday</div>
         <div class="day">Tuesday</div>
         <div class="day">Wednesday</div>
@@ -17,16 +18,18 @@
     </div>
 </body>
 <script>
-   const parent = document.querySelector('.parent')
-   console.log(parent);
-   console.log(parent.children);
-   console.log(parent.children[0].innerHTML);//get the inner html of the first child is "Monday"
 
-   
-   for (let i = 0; i < parent.children.length; i++) {
-    console.log(parent.children[i].innerHTML);
-    console.log(parent.children[i].style.backgroundColor = 'red', parent.children[i].style.color = 'black');
-   }
+//Travesal from parent to child
+   const parent = document.querySelector('.parent')
+//    console.log(parent);
+//    console.log(parent.children);
+//    console.log(parent.children[0].innerHTML);//get the inner html of the first child is "Monday"
+
+
+//    for (let i = 0; i < parent.children.length; i++) {
+//     console.log(parent.children[i].innerHTML);
+//     console.log(parent.children[i].style.backgroundColor = 'red', parent.children[i].style.color = 'black');
+//    }
 
 //OR
 
@@ -43,5 +46,21 @@
 //    days.forEach(day => {
 //      day.style.backgroundColor = 'red'
 //    });
+// parent.children[1].style.backgroundColor = 'red';
+// console.log(parent.firstElementChild.innerHTML);//Only inner text of a first child is "Monday"
+// console.log(parent.lastElementChild);//Get the last child of the parent with tags like <div class="day">Sunday</div>
+// console.log("NODES OF THE PARENT: ",parent.node);//Get the type of the parent node like 1 (Element)
+
+//Travesal from child to parent
+const day = document.querySelector('.day')
+// console.log(day);
+// console.log(day.parentElement);//Get the parent element of the day
+// console.log(day.nextElementSibling);//Get the next sibling of the day
+
+
+//Learing about Nodes:
+console.log("NODES:",parent.childNodes);//Get all the nodes of the parent
+
+
 </script>
 </html>

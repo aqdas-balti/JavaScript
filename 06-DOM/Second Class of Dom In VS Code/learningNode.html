@@ -9,20 +9,20 @@
     
 </body>
 <script>
-    // Assigning a div in a console backend it will only show in the console of a wepage (<div></div>)
-    // const div = document.createElement('div');
-    // console.log(div);
-    // div.className = 'test';
-    // div.id = Math.round(Math.random()*10+1);
-    // div.setAttribute('title','This is a div');
-    // div.style.backgroundColor = 'red';
-    // div.style.padding = '10px';
-    // div.style.borderRadius = '10px';
-    // // div.innerText="Aqdas Ali"; //This will not preffered because of overwrite below example will be mostly preffered
-    // const addText = document.createTextNode('Aqdas Ali');
-    // div.appendChild(addText);//This will add Aqdas Ali text in the body of the website
+    // Assigning a div in a console backend it will only show in the console of a webpage (<div></div>)
+    const div = document.createElement('div');
+    console.log(div);
+    div.className = 'test';
+    div.id = Math.round(Math.random()*10+1);
+    div.setAttribute('title','This is a div');
+    div.style.backgroundColor = 'red';
+    div.style.padding = '10px';
+    div.style.borderRadius = '10px';
+    // div.innerText="Aqdas Ali"; //This will not preffered because of overwrite below example will be mostly preffered
+    const addText = document.createTextNode('Aqdas Ali');
+    div.appendChild(addText);//This will add Aqdas Ali text in the body of the website
      
-    // document.body.appendChild(div);//Adding all of this work into the actual page of our website
+    document.body.appendChild(div);//Adding all of this work into the actual page of our website
   
     function createDivs(count) {
     const colors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange', 'pink', 'cyan', 'lime', 'teal'];
@@ -33,15 +33,15 @@
         
         // Assign properties to the div
         div.className = 'test';
-        div.id = `div-${i + 1}`;
-        div.setAttribute('title', `This is div number ${i + 1}`);
+        div.id = `div-${i}`;
+        div.setAttribute('title', `This is div number ${i}`);
         div.style.backgroundColor = colors[i % colors.length]; // Cycle through colors
         div.style.padding = '10px';
         div.style.borderRadius = '10px';
         div.style.margin = '10px 0'; // Add margin for spacing between divs
         
         // Add text to the div
-        const addText = document.createTextNode(`Div ${i + 1}: Aqdas Ali`);
+        const addText = document.createTextNode(`Div ${i}: Aqdas Ali`);
         div.appendChild(addText);
         
         // Append the div to the body
@@ -51,7 +51,5 @@
 
 // Call the function with the desired number of divs
 createDivs(10);
-
-
 </script>
 </html>

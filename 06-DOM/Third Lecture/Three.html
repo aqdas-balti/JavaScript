@@ -11,6 +11,7 @@
     </ul>
 </body>
 <script>
+//addLanguage to the list
     function addLanguage(langName){
         const li = document.createElement('li');
         li.innerHTML = langName;
@@ -18,10 +19,39 @@
     }
     addLanguage('Python');
     addLanguage('Javascript');
-
+//removeLanguage from the list
     function removeLanguage(langName){
-        const li = document.querySelector(`li:contains(${langName})`);
-        li.remove();
+        const li = document.querySelector('.language').querySelector('li');
+        document.querySelector('.language').removeChild(li);
     }
+    // removeLanguage("Javascript");
+//Another way to add languages it is more preferable
+    function addOptimizedLanguage(langName){
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(langName));
+        document.querySelector('.language').appendChild(li);
+    }
+    addOptimizedLanguage('golang')
+
+//Editing languages
+    function editLanguage(langName){
+        const li = document.querySelector('.language').querySelector('li:nth-child(3)');//li:nth-child(2) yea second li ko select kar ka us ma change karay ga
+        li.innerHTML = langName;
+    }
+    editLanguage('C++');
+    editLanguage('C###');
+    //jo sb say akhir ma likay gye us ko preferance milay ga interpriter ki tarha line by line execute ho ga
+    const secondLanguage = document.querySelector('.language').querySelector('li:nth-child(2)');
+    secondLanguage.innerHTML = 'C++';
+    const newli = document.createElement('li');
+    newli.innerHTML = 'MongoDB';
+    // secondLanguage.replaceWith(newli);
+
+    //edit
+    const firstLanguage = document.querySelector('li:first-child');
+    firstLanguage.outerHTML = '<li>TypeScript</li>';//replace the first element with new element (TypeScript)
+
+    const lastLanguage = document.querySelector('li:last-child');
+    lastLanguage.remove();//remove the last element
 </script>
 </html>
